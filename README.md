@@ -10,6 +10,7 @@ This skill empowers AI agents and developers to interact with Vercel's platform 
 
 - **Deployment Management**: Deploy to production or preview environments with ease.
 - **Environment Syncing**: Synchronize local environment variables with Vercel secrets.
+- **Live Documentation**: Fetch official Vercel docs as markdown directly from the terminal.
 - **Project Linking**: Link local directories to existing Vercel projects.
 - **Domain & DNS Control**: Manage domains, buy new ones, and configure DNS records.
 - **Security**: Manage SSL certificates and team access scopes.
@@ -32,6 +33,8 @@ Once installed, the skill is automatically discovered by OpenCode agents. You ca
 - "Link this directory to my Vercel project"
 - "Sync my environment variables with Vercel"
 - "Add a new domain to my Vercel project"
+- "Fetch the Vercel documentation for 'edge-functions'"
+- "Show me the Vercel docs sitemap"
 
 ## Skill Metadata
 

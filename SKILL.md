@@ -25,8 +25,22 @@ Developers need a way to programmatically or manually interact with Vercel's pla
 - When syncing local environment variables with Vercel.
 - When linking a local directory to a Vercel Project.
 - When managing domains, DNS, SSL certificates, or team scopes from the command line.
+- When looking up Vercel documentation for specific features or troubleshooting.
 
 ## Solution
+
+### Documentation
+
+Fetch any Vercel docs page as markdown:
+
+```bash
+curl -s "https://vercel.com/docs/<path>" -H 'accept: text/markdown'
+```
+
+**Get the full sitemap to discover all available pages:**
+```bash
+curl -s "https://vercel.com/docs/sitemap.md" -H 'accept: text/markdown'
+```
 
 ### Global Options
 - `--token`: Authenticate using a token (essential for CI/CD).
